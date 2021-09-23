@@ -8,7 +8,6 @@ from graphics import *
 
 
 def squares():
-
     """  <---  You can use tripled quotes to write a multi-line comment....
 
     Modify the following function to:
