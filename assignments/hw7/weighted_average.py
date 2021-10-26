@@ -42,7 +42,7 @@ def weighted_average(in_file_name, out_file_name):
             x = x + 1
 
         if total_weight == 100:
-            outfile.write(name + str(average) + '\n')
+            outfile.write(name + str(round(average, 1)) + '\n')
             total_average += average
             total_grades += 1
         elif total_weight > 100:
