@@ -63,7 +63,6 @@ def guess_word(file):
                     x += 1
 
                 pos += 1
-
             guess_left = 7 - x
             print('incorrect answers: ' + ', '.join(wrong_guess))
             print('you have ' + str(guess_left) + ' guesses left')
